@@ -161,6 +161,8 @@ DELETE
 
   [![Image](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/video_thumnail.jpg)](https://www.youtube.com/watch?v=MOvikDJyzAA&t=41s)
 
+## Testing the API (Writing Test Cases)
+
 - To run the `test cases`, use the command
 
 ```
