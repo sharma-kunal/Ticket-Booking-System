@@ -7,7 +7,7 @@
 # Ticket Booking API
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blueviolet?style=for-the-badge&logo=python)   ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi) ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative)
 
-A Ticket Booking System API made using Django (Python-based free and open-source web framework)
+A Ticket Booking System API made using `Django` (Python-based free and open-source web framework)
 
 ## Problem Statement
 
@@ -124,6 +124,8 @@ DELETE
 
 ![DELETE TICKET](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/Delete.png)
 
+## Additional Features
+
 - Mark a ticket as expired if there is a diff of 8 hours between the ticket timing and current time.
 
     Added a Cron Job to run at the interval of 5 minutes To Mark a Ticket as Expired if the Difference is greater than or equal to 8 hours.
@@ -141,11 +143,11 @@ DELETE
 
   Added a Cron Job to run at the interval of 10 minutes to Delete all the Expired Tickets.
 
-  #### CRON FUNCTION TO DELETE EXPIRED TICKETS
+  ##### CRON FUNCTION TO DELETE EXPIRED TICKETS
 
-  ![Cron function to delete expired tickets](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/delete_cron_jon.png)
+  ![Cron function to delete expired tickets](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/delete_cron_job.png)
 
-  ### CRON JOB (Specifying the CRON FUNCTION to run every 10 minutes)
+  ##### CRON JOB (Specifying the CRON FUNCTION to run every 10 minutes)
 
   ![Cron Job to delete expired ticket](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/delete_cron_job_time.png)
 
@@ -157,9 +159,9 @@ DELETE
 
   Watch the below video,
 
-  ![Image](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/video_thumnail.jpg)
+  [![Image](https://github.com/sharma-kunal/Ticket-Booking-System/blob/master/images/video_thumnail.jpg)](https://www.youtube.com/watch?v=MOvikDJyzAA&t=41s)
 
-- To run the test cases, use the command
+- To run the `test cases`, use the command
 
 ```
 python manage.py test
